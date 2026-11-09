@@ -1,0 +1,19 @@
+Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:19:08) [MSC v.1500 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+Print(Today I will create on python
+      
+SyntaxError: invalid syntax
+>>> Print ("Today I will create on python")
+
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    Print ("Today I will create on python")
+NameError: name 'Print' is not defined
+>>> print ("Tosay I will create on python")
+Tosay I will create on python
+>>> print ("Total" 6 + 7) # This line is to sum two numbers
+SyntaxError: invalid syntax
+>>> print ("Total", 6 + 7) # This line is to sum two number
+('Total', 13)
+>>> 
